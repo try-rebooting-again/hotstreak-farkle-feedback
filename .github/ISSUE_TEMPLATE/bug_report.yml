@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in HOT STREAK isn't working right
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem.
+      placeholder: After a steal, the score bar showed the wrong total…
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start a game with 3 players
+        2. Tap …
+        3. See …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: HOT STREAK version
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version
+      placeholder: "16"
+  - type: input
+    id: device
+    attributes:
+      label: Phone model
+      placeholder: Pixel 9
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots help.
