@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest something new for HOT STREAK
+title: "[Request] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before posting, please search the open requests. If yours is already there, add a 👍 to it instead.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like HOT STREAK to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?
+      description: What are you trying to do at the table? The problem helps more than the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything you've tried or other apps that do this well?
+  - type: input
+    id: app-version
+    attributes:
+      label: HOT STREAK version
+      placeholder: "1.0"
